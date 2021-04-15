@@ -1,7 +1,7 @@
 # FinageDetailedOHLCVChart
-Draw a OHLCV chart by using the Finage's aggregate API
+Draw an OHLCV chart by using the Finage's aggregate API
 
-Finage is using its own APIs in the UI pages. 
+Finage is using its own APIs in the UI pages. <br>
 https://finage.co.uk/stock/aapl
 
 I wanted to show you how to use the Finage's [Aggregate API](https://finage.co.uk/docs/api/stock-market-aggregates-api) to draw a detailed OHLCV chart. In this example, I've used the <b>CanvasJS</b> library to draw a chart. Also, you can install the <b>JQuery</b> library to make an API request, it's optional.
@@ -9,14 +9,14 @@ I wanted to show you how to use the Finage's [Aggregate API](https://finage.co.u
 <br>
 
 
-The endpoint I've used in this example is,
+The endpoint I've used in this example is, <br>
 > https://api.finage.co.uk/agg/stock/{symbol}/{multiply}/{time}/{from}/{to}?apikey=YOUR_API_KEY
 
 
 We are getting the Ticker symbol from the URL and drawing the chart. If it's null, we will draw the AAPL's chart as default. 
 <br>
 #### Get your free key
-If you do not have an API key, you can yours for free;
+If you do not have an API key, you can yours for free;<br>
 https://moon.finage.co.uk/register?subscribe=API00
 
 <br>
