@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: block;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 6px 0px #333;
+    padding: 20px;
+}
+
+
+.info-container {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+}
+.info-container .info-item {
+    display: block;
+}
